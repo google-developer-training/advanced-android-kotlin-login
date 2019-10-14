@@ -36,10 +36,9 @@ class FirebaseUserLiveData : LiveData<FirebaseUser?>() {
     //  current FirebaseUser. You can utilize the FirebaseAuth.AuthStateListener callback to get
     //  updates on the current Firebase user logged into the app.
     private val authStateListener = FirebaseAuth.AuthStateListener { firebaseAuth ->
-        // Use the FirebaseAuth instance instantiated at the beginning of the class to get an entry
-        // point into the Firebase Authentication SDK the app is using.
-        // With an instance of the FirebaseAuth class, you can now query for the current user.
-        value = firebaseAuth.currentUser
+        // TODO Use the FirebaseAuth instance instantiated at the beginning of the class to get an
+        //  entry point into the Firebase Authentication SDK the app is using.
+        //  With an instance of the FirebaseAuth class, you can now query for the current user.
     }
 
     // When this object has an active observer, start observing the FirebaseAuth state to see if

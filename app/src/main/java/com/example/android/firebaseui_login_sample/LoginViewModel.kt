@@ -44,13 +44,9 @@ class LoginViewModel : ViewModel() {
         AUTHENTICATED, UNAUTHENTICATED, INVALID_AUTHENTICATION
     }
 
-    val authenticationState = FirebaseUserLiveData().map { user ->
-        if (user != null) {
-            AuthenticationState.AUTHENTICATED
-        } else {
-            AuthenticationState.UNAUTHENTICATED
-        }
-    }
+    // TODO Create an authenticationState variable based off the FirebaseUserLiveData object. By
+    //  creating this variable, other classes will be able to query for whether the user is logged
+    //  in or not
 
     /**
      * Gets a fact to display based on the user's set preference of which type of fact they want
