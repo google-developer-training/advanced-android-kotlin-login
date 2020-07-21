@@ -68,7 +68,7 @@ class MainFragment : Fragment() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         // TODO Listen to the result of the sign in process by filter for when
-        //  SIGN_IN_REQUEST_CODE is passed back. Start by having log statements to know
+        //  SIGN_IN_RESULT_CODE is passed back. Start by having log statements to know
         //  whether the user has signed in successfully
     }
 
