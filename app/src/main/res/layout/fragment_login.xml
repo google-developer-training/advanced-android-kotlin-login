@@ -15,33 +15,32 @@
   ~ limitations under the License.
   -->
 
-<layout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context=".LoginFragment">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginFragment">
 
         <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="20dp"
-                android:text="@string/login_prompt"
-                android:textAlignment="center"
-                android:textSize="30sp"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:text="@string/login_prompt"
+            android:textAlignment="center"
+            android:textSize="30sp" />
 
         <TextView
-                android:id="@+id/auth_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@color/colorAccent"
-                android:padding="10dp"
-                android:text="@string/login_btn"
-                android:textColor="@color/white"
-                android:textSize="26sp"/>
+            android:id="@+id/auth_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="@string/login_btn"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
     </FrameLayout>
 </layout>
