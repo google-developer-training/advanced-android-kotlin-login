@@ -18,7 +18,6 @@ package com.example.android.firebaseui_login_sample
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.map
 import androidx.preference.PreferenceManager
 import kotlin.random.Random
 

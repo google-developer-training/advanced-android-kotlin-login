@@ -16,24 +16,23 @@
   -->
 
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/nav_graph"
-            app:startDestination="@id/mainFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
 
     <fragment
-            android:id="@+id/mainFragment"
-            android:name="com.example.android.firebaseui_login_sample.MainFragment"
-            android:label="MainFragment">
-    </fragment>
+        android:id="@+id/mainFragment"
+        android:name="com.example.android.firebaseui_login_sample.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
     <fragment
-            android:id="@+id/settingsFragment"
-            android:name="com.example.android.firebaseui_login_sample.SettingsFragment"
-            android:label="fragment_settings">
-    </fragment>
+        android:id="@+id/settingsFragment"
+        android:name="com.example.android.firebaseui_login_sample.SettingsFragment"
+        android:label="fragment_settings" />
     <fragment
-            android:id="@+id/loginFragment"
-            android:name="com.example.android.firebaseui_login_sample.LoginFragment"
-            android:label="fragment_login"
-            tools:layout="@layout/fragment_login"/>
+        android:id="@+id/loginFragment"
+        android:name="com.example.android.firebaseui_login_sample.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 </navigation>
